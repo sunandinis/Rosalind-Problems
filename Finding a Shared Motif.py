@@ -1,6 +1,6 @@
 from Bio import SeqIO
 def lcsm():
-    file = open('/Users/dhruvarora/Downloads/rosalind_lcsm (2).txt', 'r')
+    file = open('/Users/Downloads/rosalind_lcsm (2).txt', 'r')
     sequences = []
     for record in SeqIO.parse(file, 'fasta'):
         sequences.append(str(record.seq))
